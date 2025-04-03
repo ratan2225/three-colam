@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+.main{
+display: flex;
+justify-content: center;
+font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.sedan{
+  height: 450px;
+  width: 278px;
+  background-color: hsl(31, 77%, 52%);
+  margin-top: 100px;
+  
+}
+.suvs{
+  height: 450px;
+  width: 278px;
+  background-color: hsl(184, 100%, 22%);
+  margin-top: 100px;
+}
+.luxury{
+  height: 450px;
+  width: 278px;
+  background-color: hsl(179, 100%, 13%);
+  margin-top: 100px;
+}
+img{
+  padding-top: 42px;
+  padding-left: 42px;
+}
+.hed{
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 30px;
+}
+h2{
+  padding-left: 42px;
+  margin-top: 20px;
+  color: white;
+}
+p{
+  margin-top: 25px;
+  padding-left: 42px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13.8px;
+  line-height: 1.3rem;
+}
+button{
+  margin: 42px;
+  margin-top: 95px;
+  width: 130px;
+  height: 45px;
+  border: 2px solid white;
+  background: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  transition: 0.5s;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
